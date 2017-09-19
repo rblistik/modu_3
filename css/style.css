@@ -1,20 +1,17 @@
 /********** Base styles **********/
 body {
   font-size: 16px;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+  background-color: #B2AEAE;
+  font-family: 'Arial';
 }
-* {
-  box-sizing: border-box;
+
+/** HEADER **/
+#header-nav {
+  background-color: #F6A179;
+  border-radius: 0;
+  border: 1px solid #000;
 }
-h1 {
-  color:#fff;
-  margin-bottom: 10px;
-  text-align:left
-}
-h3 {
-  padding-top: 15px;
-}
+
 .navbar-brand {
   padding-top: 15px;
 }
@@ -87,4 +84,7 @@ h1 {
   height: 900px;
   border: 1px solid #000;
 }
+
+
+
 
